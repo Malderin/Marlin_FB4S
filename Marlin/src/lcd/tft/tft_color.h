@@ -70,7 +70,8 @@
 #define COLOR_DARK_PURPLE     0x9930  // #992380
 
 #ifndef COLOR_BACKGROUND
-  #define COLOR_BACKGROUND    0x20AC  // #1E156E
+  //#define COLOR_BACKGROUND    0x20AC  // #1E156E
+  #define COLOR_BACKGROUND    0x0000  // #1E156E черный Malderin
 #endif
 #ifndef COLOR_SELECTION_BG
 	#define COLOR_SELECTION_BG    0x9930  // #992380
@@ -86,10 +87,12 @@
 	#define COLOR_COLD              COLOR_AQUA
 #endif
 #ifndef COLOR_HOTEND
-	#define COLOR_HOTEND            COLOR_SCARLET
+	//#define COLOR_HOTEND            COLOR_SCARLET
+  #define COLOR_HOTEND            0x7FE0  //Malderin
 #endif
 #ifndef COLOR_HEATED_BED
-	#define COLOR_HEATED_BED        COLOR_DARK_ORANGE
+	//#define COLOR_HEATED_BED        COLOR_DARK_ORANGE
+  #define COLOR_HEATED_BED        0x7FE0  //Malderin
 #endif
 #ifndef COLOR_CHAMBER
 	#define COLOR_CHAMBER           COLOR_DARK_ORANGE
