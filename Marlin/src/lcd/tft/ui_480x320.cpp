@@ -101,10 +101,11 @@ void MarlinUI::clear_lcd() {
     tft.canvas(0, 0, TFT_WIDTH, TFT_HEIGHT);
     tft.set_background(COLOR_BACKGROUND);
     //tft.add_image(142, 130, imgBootScreen);  // MarlinLogo195x59x16
-    tft.add_image(135, 30, imgBootScreen);  // Malderin
+    //tft.add_image(132, 30, imgBootScreen);  // Malderin MarlinLogo228x255x2
+    tft.add_image(130, 35, imgBootScreen);  // Malderin MarlinLogo228x228x16
 
     #ifdef WEBSITE_URL
-      tft.add_text(8, 250, COLOR_WEBSITE_URL, WEBSITE_URL);
+      tft.add_text(8, 285, COLOR_WEBSITE_URL, WEBSITE_URL);
     #endif
 
     tft.queue.sync();

@@ -45,8 +45,8 @@ void menu_item(const uint8_t row, bool sel = false);
 
 const tImage Images[imgCount] = {
   //MarlinLogo195x59x16,
-  MarlinLogo228x255x2,
-  //MarlinLogo160x120x16, //Malderin
+  //MarlinLogo228x255x2, //Malderin
+  MarlinLogo228x228x16, //Malderin
   HotEnd_64x64x4,
   Bed_64x64x4,
   Bed_Heated_64x64x4,
