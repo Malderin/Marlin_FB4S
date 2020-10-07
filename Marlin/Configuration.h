@@ -494,9 +494,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.0 }
     #define DEFAULT_Kd_LIST { 114.00, 112.0 }
   #else
-#define DEFAULT_Kp 26.57
-#define DEFAULT_Ki 2.57
-#define DEFAULT_Kd 68.70
+#define DEFAULT_Kp 26.1
+#define DEFAULT_Ki 2.76
+#define DEFAULT_Kd 61.70
   #endif
 #endif // PIDTEMP
 
@@ -1566,8 +1566,8 @@ EEPROM_W25Q
 
 // Preheat Constants
 #define PREHEAT_1_LABEL       "PLA"
-#define PREHEAT_1_TEMP_HOTEND 215
-#define PREHEAT_1_TEMP_BED     65
+#define PREHEAT_1_TEMP_HOTEND 220
+#define PREHEAT_1_TEMP_BED     60
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
 #define PREHEAT_2_LABEL       "PETG"
