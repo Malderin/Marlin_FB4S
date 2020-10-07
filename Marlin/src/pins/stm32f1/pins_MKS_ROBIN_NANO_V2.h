@@ -251,7 +251,9 @@ https://easyeda.com/sst78rust/fb4s-led-control
 #endif
 
 #define SDIO_SUPPORT
-#define SDIO_CLOCK                       4500000  // 4.5 MHz
+//#define SDIO_CLOCK                       4500000  // 4.5 MHz
+#define SDIO_CLOCK                       3000000  // 3.0 MHz Malderin
+#define SDIO_READ_RETRIES                  5  //Malderin
 #define SD_DETECT_PIN                       PD12
 #define ONBOARD_SD_CS_PIN                   PC11
 
